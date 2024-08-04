@@ -2,7 +2,7 @@ import React from 'react';
 import './HealthPackage.css';
 import shield from '../../assets/images/shield.png';
 import tick from '../../assets/images/tick.png';
-
+import dhoniPoint from '../../assets/images/Dhoni-pointing-image-neuberg.png';
 
 const HealthPackage = () => {
   return (
@@ -52,6 +52,10 @@ const HealthPackage = () => {
 
             </div>
             
+        </div>
+        <div className='dhoni-point-image'>
+        <img className='dhoni-point-image' src={dhoniPoint} alt="dhoni-image" />
+
         </div>
       </div>
       </div>

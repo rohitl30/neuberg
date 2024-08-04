@@ -104,3 +104,10 @@
 .right-bullets{
     margin-left: 4rem;
 }
+
+.dhoni-point-image{
+    z-index: 1;
+    height:22rem;
+    margin-top:-1rem;
+    margin-left: -3rem;
+}
