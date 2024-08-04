@@ -1,0 +1,106 @@
+.orange-text {
+    color: #FF8B00;
+}
+
+.violet-text {
+    color: #5C2D91;
+}
+
+.grey-text {
+    color: #808080;
+}
+
+.title-h1 {
+    text-align: center;
+}
+
+.CaptianHealthPackage {
+    background-color: #FFF7ED;
+    height: 30rem;
+    padding: 2rem 15rem 2rem 15rem;
+    text-align: center;
+
+}
+
+.violet-textbox {
+    background-color: #5C2D91;
+    color: white;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 4%;
+    display: flex;
+}
+
+.orange-textbox {
+    background-color: #FF8B00;
+    color: white;
+    height: 3rem;
+    width: 10rem;
+    border-radius: 4%;
+    display: flex;
+    margin-left: 2rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.price-text {
+    font-size: larger;
+    margin-top: 0.5rem;
+
+}
+
+.line-through {
+    text-decoration: line-through;
+
+}
+
+.plain-text {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 4rem;
+}
+
+.shield-image {
+    height: 6rem;
+    width: 8rem;
+    z-index: 1;
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+
+.textboxes {
+    justify-content: center;
+}
+
+.orange-block {
+    background-image: url("../../assets/images/orange-curved-bg.png");
+    height: 100%;
+    width: 120%;
+    padding: 2rem;
+    margin-left: -4.2rem;
+    background-size: cover;
+
+}
+
+.tick-image{
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+.button-text{
+    color: white;
+    font-size: large;
+    margin-left: 1rem;
+}
+
+.bullet-point{
+    line-height: 20%;
+    margin-left:4rem;
+}
+
+
+.right-bullets{
+    margin-left: 4rem;
+}

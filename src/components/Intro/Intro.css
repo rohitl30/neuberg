@@ -1,0 +1,36 @@
+.intro{
+    height : 17rem;
+    background: linear-gradient(90.92deg, #FFF3E5 0.51%, #D4B2FB 99.49%);
+    padding: 2rem 10rem 2rem 10rem;
+    display:flex;
+    justify-content: space-around ;
+}
+.orange-title{
+    color : #FF8B00; 
+}
+
+.violet-title{
+    color : #5C2D91; 
+}
+
+.orange-button{
+    background-color:#FF8B00;
+    color: white;
+    padding : 0.5rem;
+    font-family: Maven Pro;
+
+}
+
+.violet-button{
+    background-color:#5C2D91;
+    color: white;
+    padding : 0.5rem;
+    font-family: Maven Pro;
+
+}
+
+.dhoni-intro-image{
+    height : 21rem;
+    width: 17rem;
+    margin-top:-2rem;
+}
