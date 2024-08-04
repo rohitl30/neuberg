@@ -4,4 +4,16 @@
     text-align: center;
     padding : 2rem 5rem 2rem 5rem;
     margin-top: 4rem;
+align-items: center;}
+
+.orange-textbox{
+    text-align: center;
+    height:4rem;
+    font-size: large;
+    padding: 1rem;
+}
+
+.price-large{
+    font-size: larger;
+    text-align: center;
 }
