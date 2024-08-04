@@ -17,12 +17,12 @@ function App() {
     <Header />
     <Intro />
     <HealthPackage />
-    {/* <FullBodyPackage />
-    <NEUExpressHealthPackage />
-    <ComprehensiveHealthTests />
-    <RequestACall />
-    <HowItWorks />
-    <Footer /> */}
+    <FullBodyPackage />
+    {/* <NEUExpressHealthPackage /> */}
+    {/* <ComprehensiveHealthTests /> */}
+    {/* <RequestACall /> */}
+    {/* <HowItWorks /> */}
+    {/* <Footer /> */}
     </div>
   );
 }
