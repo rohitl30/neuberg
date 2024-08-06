@@ -1,19 +1,44 @@
 .fullbodypackage{
     background-color: #F9EFFF;
-    height: 20rem;
+    height: 32rem;
     text-align: center;
     padding : 2rem 5rem 2rem 5rem;
     margin-top: 4rem;
-align-items: center;}
+    color:white;
+    justify-content: center;
+}
 
 .orange-textbox{
-    text-align: center;
-    height:4rem;
-    font-size: large;
-    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Maven Pro, sans-serif;
+    font-size: 1.90rem;
+    padding: 1rem ; 
+    color:white;
+    background-color: #FF8B00 ;
 }
 
 .price-large{
     font-size: larger;
+    color: white;
     text-align: center;
+
 }
+.price{
+    width: 0rem;
+}
+.styled-block {
+    width: 869px;
+    height: 250px;
+    position: absolute;
+    top: 103rem;
+    left: 20rem;
+    gap: 0px;
+    opacity: 0px;
+    background-color:  #5C2D91;
+    border-top-left-radius: 40px;  
+    border-top-right-radius: 40px;  
+  
+}
+  

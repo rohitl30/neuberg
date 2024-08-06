@@ -16,38 +16,45 @@
 
 .CaptianHealthPackage {
     background-color: #FFF7ED;
-    height: 30rem;
+    height: 35rem;
     padding: 2rem 15rem 2rem 15rem;
     text-align: center;
+    font-size: larger;
 
 }
 
-.violet-textbox {
+.violet-textbox-price {
     background-color: #5C2D91;
     color: white;
-    height: 3rem;
-    width: 10rem;
     border-radius: 4%;
     display: flex;
+    justify-content: center;
+    padding: 1rem;
+    font-size: medium;
+    border-radius: 8px; 
+
 }
 
-.orange-textbox {
+.orange-textbox-price {
     background-color: #FF8B00;
     color: white;
-    height: 3rem;
-    width: 10rem;
     border-radius: 4%;
     display: flex;
     margin-left: 2rem;
+    justify-content: center;
+    padding: 1rem;
+    font-size:medium;
+    border-radius: 8px; 
 }
 
-.flex {
+.health-package-flex {
     display: flex;
 }
 
 .price-text {
-    font-size: larger;
-    margin-top: 0.5rem;
+    font-size:xx-large;
+    font-weight:bolder;
+    padding-left:1rem;
 
 }
 
@@ -58,7 +65,7 @@
 
 .plain-text {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     padding: 4rem;
 }
 
@@ -76,17 +83,15 @@
 
 .orange-block {
     background-image: url("../../assets/images/orange-curved-bg.png");
-    height: 100%;
-    width: 120%;
-    padding: 2rem;
+    padding: 3rem;
     margin-left: -4.2rem;
-    background-size: cover;
+    border-radius: 0% 20% 0% 0% ;
 
 }
 
 .tick-image{
     height: 2rem;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 
 .button-text{
@@ -97,17 +102,37 @@
 
 .bullet-point{
     line-height: 20%;
-    margin-left:4rem;
+    margin-left:2rem;
 }
 
 
 .right-bullets{
-    margin-left: 4rem;
+    margin-left: 2rem;
 }
 
 .dhoni-point-image{
     z-index: 1;
     height:22rem;
-    margin-top:-1rem;
-    margin-left: -3rem;
+    margin-top:-2.5rem;
+    margin-left: -3.5rem;
+}
+
+.add-button{
+    background-color: #c59dd8;
+    color: white;
+    height: 5rem;
+    width: 10rem;
+    border-radius: 4%;
+    display: flex;
+    margin-left: 2rem;
+    justify-content: center;
+    padding: 1rem;
+    font-size:larger;
+    border-radius: 8px; 
+}
+
+.bullet-text{
+    font-size:larger;
+    color: white;
+    padding-left: 0.25rem;
 }

@@ -6,60 +6,63 @@ import dhoniPoint from '../../assets/images/Dhoni-pointing-image-neuberg.png';
 
 const HealthPackage = () => {
   return (
-      <div className='HealthPackage'>
-        <p className='plain-text'>
-          Embark on a journey to holistic well-being with our Helath Checks. Comprehensive < br />
-          and thorough, this checkup covers every aspect of your helath, providing invaluable <br />
-          insights into your overall wellness.
-        </p> 
+    <div className='HealthPackage'>
+      <p className='plain-text'>
+        Embark on a journey to holistic well-being with our Helath Checks. Comprehensive < br />
+        and thorough, this checkup covers every aspect of your helath, providing invaluable <br />
+        insights into your overall wellness.
+      </p>
       <div className='CaptianHealthPackage'>
         <h1><span className='violet-text'> CAPTAIN'S </span><span className='orange-text'> HEALTH PACKAGE </span></h1>
-        <div className='textboxes flex'>
-          <div className='violet-textbox'>
+        <div className='textboxes health-package-flex'>
+          <div className='violet-textbox-price'>
             <div>
-            ACTUAL <br /> PRICE
+              ACTUAL <br /> PRICE
             </div>
             <div className='price-text line-through'>
-            &#8377; 5500
+              &#8377; 5500
             </div>
           </div>
-          <div className='orange-textbox'>
+          <div className='orange-textbox-price'>
             <div>
               OFFER <br /> PRICE
             </div>
             <div className='price-text'>
-            &#8377; 1500
+              &#8377; 1500
             </div>
           </div>
+          <button onClick="#" className="add-button">
+            Add to Cart
+          </button>
         </div>
         <br /> <br />
-      <div className='flex'>
-        <img className='shield-image' src={shield} alt="shield" />
-        <div className='orange-block flex'>
+        <div className='health-package-flex'>
+          <img className='shield-image' src={shield} alt="shield" />
+          <div className='orange-block health-package-flex'>
             <div className='bullet-point'>
-              <div className='flex'><img className='tick-image' src={tick} /><p className='button-text'>CBC</p> </div>
-              <div className='flex'><img className='tick-image' src={tick} /><p className='button-text'>Lipid Profile</p> </div>
-              <div className='flex'><img className='tick-image' src={tick} /><p className='button-text'>Diabetes Profile (HbA1c, FBS)</p> </div>
-              <div className='flex'><img className='tick-image' src={tick} /><p className='button-text'>TSH Function (Free T3,T4 & TSH )</p> </div>
-              <div className='flex'><img className='tick-image' src={tick} /> <p className='button-text'>Kidney Function</p></div>
+              <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>CBC</p> </div>
+              <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Lipid Profile</p> </div>
+              <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Diabetes Profile (HbA1c, FBS)</p> </div>
+              <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>TSH Function (Free T3,T4 & TSH )</p> </div>
+              <div className='health-package-flex'><img className='tick-image' src={tick} /> <p className='button-text'>Kidney Function</p></div>
 
             </div>
             <div className='bullet-point right-bullets'>
-              <div className='flex'><img className='tick-image' src={tick} /><p className='button-text'>Urine Function Test</p> </div>
-              <div className='flex'><img className='tick-image' src={tick} /><p className='button-text'>Liver</p> </div>
-              <div className='flex'><img className='tick-image' src={tick} /><p className='button-text'>Vitamin D</p> </div>
-              <div className='flex'><img className='tick-image' src={tick} /><p className='button-text'>Calcium</p> </div>
+              <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Urine Function Test</p> </div>
+              <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Liver</p> </div>
+              <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Vitamin D</p> </div>
+              <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Calcium</p> </div>
 
             </div>
-            
-        </div>
-        <div className='dhoni-point-image'>
-        <img className='dhoni-point-image' src={dhoniPoint} alt="dhoni-image" />
 
+          </div>
+          <div className='dhoni-point-image'>
+            <img className='dhoni-point-image' src={dhoniPoint} alt="dhoni-image" />
+
+          </div>
         </div>
       </div>
-      </div>
-      </div>
+    </div>
 
   );
 };
