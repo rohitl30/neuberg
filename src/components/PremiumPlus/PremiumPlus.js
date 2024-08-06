@@ -30,7 +30,7 @@ const PremiumPlus = () => {
           </div>
         </div>
       </div>
-      <button onClick="#" className="add-button">
+      <button onClick="#" className="add-button move">
         Book Now
       </button>
       <br /> <br />

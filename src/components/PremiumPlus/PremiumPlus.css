@@ -21,6 +21,10 @@
     margin-left:13rem;
 }
 
+.premium-plus h1{
+    margin-left:6rem;
+    text-align: center;
+}
 .orange-curved-block{
     position: absolute;
     background: linear-gradient(181.16deg, #DC7C09 0.99%, #F1A84F 99.01%);
@@ -47,4 +51,9 @@
 
 .premium-textboxes{
     justify-content: center;
+    margin-left: 3rem;
+}
+
+.move{
+    margin-left: 3rem;
 }
