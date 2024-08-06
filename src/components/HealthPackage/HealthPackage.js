@@ -7,11 +7,12 @@ import dhoniPoint from '../../assets/images/Dhoni-pointing-image-neuberg.png';
 const HealthPackage = () => {
   return (
     <div className='HealthPackage'>
-      <p className='plain-text'>
-        Embark on a journey to holistic well-being with our Helath Checks. Comprehensive < br />
-        and thorough, this checkup covers every aspect of your helath, providing invaluable <br />
-        insights into your overall wellness.
-      </p>
+      <h3 className='header-text'>
+      <span className="grey-header-text"> Curated </span> 
+      <span className="violet-header-text"> Helath Packages </span>
+      <span className="grey-header-text"> for your </span>
+      <span className="orange-header-text"> Wellbeing </span>
+      </h3>
       <div className='CaptianHealthPackage'>
         <h1><span className='violet-text'> CAPTAIN'S </span><span className='orange-text'> HEALTH PACKAGE </span></h1>
         <div className='textboxes health-package-flex'>
@@ -31,11 +32,12 @@ const HealthPackage = () => {
               &#8377; 1500
             </div>
           </div>
-          <button onClick="#" className="add-button">
-            Add to Cart
-          </button>
         </div>
+        <button onClick="#" className="add-button">
+            Book Now          
+          </button>
         <br /> <br />
+
         <div className='health-package-flex'>
           <img className='shield-image' src={shield} alt="shield" />
           <div className='orange-block health-package-flex'>

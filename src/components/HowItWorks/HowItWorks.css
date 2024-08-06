@@ -1,0 +1,35 @@
+.header-text-1{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 4rem;
+}
+
+.how-orange-header{
+    color: #FF8B00;
+}
+
+.how-violet-header{
+    color: #5C2D91;
+}
+
+.sub-head-text{
+    color: #5C2D91;
+    font-size : 25px;
+    text-align: center;
+}
+
+.working-img-flex{
+    display: flex;
+    justify-content: center;
+    gap:3rem;
+}
+
+.working-img{
+    height:11rem;
+    width:12rem;
+}
+
+.working-img-text{
+    text-align: center;
+    font-weight: 700;
+}

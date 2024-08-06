@@ -1,0 +1,77 @@
+.dhoni-heart-image {
+    width: 450px;
+    height: 400px;
+    top: 3130.04px;
+    left: 200px;
+    margin-left: 3.1rem;
+    margin-top: -11rem;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.request-a-call {
+    display: flex;
+    margin-top: 5rem;
+
+}
+
+form {
+    background-color: #bb9ddd;
+    padding: 1rem 4rem 1rem 4rem;
+    margin-top: 0.3rem;
+    width: 400px;
+    height: 362px;
+    color: white;
+    border-radius: 15px;
+
+
+}
+
+.text-input {
+    height: 3rem;
+    width: 22rem;
+    border-radius: 8px;
+    padding-left: 1rem;
+    border-color: transparent;
+
+
+}
+
+.inputs-txt{
+    margin-top: -1.5rem;
+    margin-left: 1.5rem;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.form-head{
+    color: black;
+    text-align: center;
+    font-weight:500 ;
+
+}
+
+.request-button{
+    color: white;
+    height: 2rem;
+    width:23rem;
+    margin-left: 2rem;
+    font-size: large;
+    border-radius: 7px;
+    border-color: transparent;
+    background: linear-gradient(90.97deg, #F7941D 58.96%, rgba(255, 173, 75, 0.86) 98.25%);
+}
+
+.request-call-img{
+    background: linear-gradient(118.49deg, #3C286B 0%, #88347F 100.84%);
+    height:14rem;
+    margin-top:11rem;
+    border-top-left-radius: 40px;  
+    border-bottom-left-radius: 40px; 
+    margin-left: 18rem;
+    width: 33rem;
+    
+}

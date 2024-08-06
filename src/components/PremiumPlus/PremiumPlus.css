@@ -1,0 +1,50 @@
+.premium-plus{
+    background: #FFF7ED;
+    text-align: center;
+    padding: 2rem 7rem 2rem 5rem;
+    height:46.5rem;
+    align-items: center;
+}
+
+.premium-orange-text{
+    color: #FF8B00;
+}
+
+.premium-violet-text{
+    color: #5C2D91;
+}
+
+.light-violet-plus{
+    height:5rem;
+    width:5rem;
+    margin-top:12rem;
+    margin-left:13rem;
+}
+
+.orange-curved-block{
+    position: absolute;
+    background: linear-gradient(181.16deg, #DC7C09 0.99%, #F1A84F 99.01%);
+    border-top-left-radius: 40px;  
+    border-top-right-radius: 40px; 
+    padding: 4rem;
+    padding-bottom: 2rem;
+    padding-top: 2.5rem;
+    gap:8rem; 
+    left: 20rem;
+
+    margin-left: 4rem;
+
+}
+
+.male-doctor-image{
+    height :32rem;
+    width:17rem;
+    margin-left:49rem;
+    position: absolute;
+
+
+}
+
+.premium-textboxes{
+    justify-content: center;
+}

@@ -1,0 +1,134 @@
+.orange-block-footer{
+    background: linear-gradient(180deg, #F89620 0%, #FCCA8E 100%);
+    opacity: 0px;
+    justify-content: center;
+    padding: 2rem 5rem 2rem 5rem;
+    width: 100%;
+}
+
+.text{
+    color: white;
+    font-size: x-large;
+    text-align: center;
+}
+
+
+
+.footer-count{
+    color: #5C2D91;
+    font-family: Maven Pro;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 50.4px;
+    text-align: center;
+
+}
+
+.footer-count-text{
+    color: #FFFFFF;
+    font-family: Maven Pro;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 22.4px;
+    text-align: center;
+
+}
+
+.footer-count-flex{
+    display: flex;
+    justify-content: center;
+    gap: 9rem;
+    text-align: center;
+}
+
+.grey-block-footer{
+    background: #4B4750;
+    width: 100%;
+    height: 327px;  
+    padding: 2rem 4rem 1rem 4rem;
+}
+
+.grey-footer-flex{
+    display: flex;
+    gap:10rem;
+}
+
+
+.social-handle-flex{
+    display: flex;
+    margin-top: 1.8rem;
+    margin-left:-0.5rem;
+
+}
+
+.neuberg-logo-footer{
+    width: 180.1px;
+    height: 65.56px;
+    margin-top: 3rem;
+
+}
+
+.footer-flex-call-button{
+    display: flex;
+    color: white;
+}
+
+.flex1{
+    margin-left: -0.8rem;
+}
+.flex2{
+    color: white;   
+    margin-left: -5rem;
+}
+.flex3{
+    color: white;
+    margin-left: 8rem;
+
+}
+.flex4{
+    color: white;
+    margin-left: 8rem;
+}
+.footer-end{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.social-handle-button{
+    background-color: #4B4750;
+    height:2.5rem;
+}
+
+.social-handle-flex button{
+    border:none;
+    background-color: #4B4750;
+}
+
+.orange-footer-call-button{
+    background: #F7941D;
+    color: white;
+    height: 5rem;
+    width: 15rem;
+    margin-top: 2rem;
+    padding-right: 7rem;
+    border-radius:11px ;
+
+}
+
+.footer-flex-call-button{
+    display: flex;
+    gap: 1rem;
+    
+}
+.footer-call-img{
+    height: 3rem;
+    margin-top: 1.3rem;
+    margin-left: 0.5rem;
+}
+
+.footer-call-text h1{
+    font-size: 26px;
+    margin-top: -1rem;
+}
+

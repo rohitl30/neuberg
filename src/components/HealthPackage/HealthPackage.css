@@ -16,10 +16,11 @@
 
 .CaptianHealthPackage {
     background-color: #FFF7ED;
-    height: 35rem;
+    height: 34.2rem;
     padding: 2rem 15rem 2rem 15rem;
     text-align: center;
     font-size: larger;
+    width:65rem;
 
 }
 
@@ -32,6 +33,7 @@
     padding: 1rem;
     font-size: medium;
     border-radius: 8px; 
+    
 
 }
 
@@ -83,11 +85,35 @@
 
 .orange-block {
     background-image: url("../../assets/images/orange-curved-bg.png");
+    height: 100%;
     padding: 3rem;
     margin-left: -4.2rem;
-    border-radius: 0% 20% 0% 0% ;
+    border-top-left-radius: 40px;  
+    border-top-right-radius: 40px;  
 
 }
+.orange-header-text {
+    color: #FF8B00;
+}
+
+.violet-header-text {
+    color: #5C2D91;
+}
+
+.grey-header-text {
+    color: #808080;
+}
+.header-text{
+    font-family: Maven Pro;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.6px;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+}
+
 
 .tick-image{
     height: 2rem;
@@ -112,23 +138,22 @@
 
 .dhoni-point-image{
     z-index: 1;
-    height:22rem;
-    margin-top:-2.5rem;
-    margin-left: -3.5rem;
+    height:26rem;
+    margin-top:-3.75rem;
+    margin-left: -3.8rem;
 }
 
 .add-button{
-    background-color: #c59dd8;
+    background: linear-gradient(90.97deg, #F7941D 58.96%, rgba(255, 173, 75, 0.86) 98.25%);    
     color: white;
-    height: 5rem;
-    width: 10rem;
     border-radius: 4%;
-    display: flex;
-    margin-left: 2rem;
-    justify-content: center;
-    padding: 1rem;
-    font-size:larger;
+    text-align: center;
+    font-size: 40px;;
     border-radius: 8px; 
+    width:26.3rem;
+    height:4rem; 
+    font-weight: 700;
+    margin-top: 2rem;
 }
 
 .bullet-text{

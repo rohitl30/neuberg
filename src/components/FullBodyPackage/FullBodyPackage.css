@@ -1,11 +1,13 @@
 .fullbodypackage{
     background-color: #F9EFFF;
-    height: 32rem;
+    height: 38.20rem;
     text-align: center;
     padding : 2rem 5rem 2rem 5rem;
     margin-top: 4rem;
+    margin-bottom: 4rem;
     color:white;
     justify-content: center;
+    width:90rem;
 }
 
 .orange-textbox{
@@ -29,16 +31,40 @@
     width: 0rem;
 }
 .styled-block {
-    width: 869px;
-    height: 250px;
     position: absolute;
     top: 103rem;
     left: 20rem;
-    gap: 0px;
-    opacity: 0px;
-    background-color:  #5C2D91;
+    background: linear-gradient(181.16deg, #391A5D 0.99%, #522983 99.01%);    
     border-top-left-radius: 40px;  
-    border-top-right-radius: 40px;  
-  
+    border-top-right-radius: 40px; 
+    padding: 2rem;
+    gap:10rem; 
+    margin-left: 4rem;
+
 }
-  
+
+.orange-plus-image{
+    height:5rem;
+    width:5rem;
+    margin-top:3.3rem;
+    z-index: 2;
+    margin-left:16rem;
+}
+
+
+.violet-plus-image{
+    height:5rem;
+    width:5rem;
+    margin-left : -8rem;
+    margin-top : 14rem;
+
+
+}
+
+.lady-doctor-image{
+    height :23rem;
+    margin-top:1rem;
+    width:10rem;
+    margin-left:50rem;
+    position: absolute;
+}

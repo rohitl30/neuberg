@@ -1,20 +1,32 @@
 .intro{
     height : 17rem;
     background: linear-gradient(90.92deg, #FFF3E5 0.51%, #D4B2FB 99.49%);
-    padding: 2rem 10rem 2rem 10rem;
+    padding: 2rem 17rem 2rem 10rem;
     display:flex;
     justify-content: space-around ;
-    
+    width: 80rem;    
 }
 .heading{
     font-family: Maven Pro;
     font-size: 40px;
     font-weight: 800;
     line-height: 58.28px;
-    text-align: left;
     margin-top: 3rem;
+    margin-left:-13rem;
     
     
+}
+.text-1{
+    font-family: Maven Pro;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23.5px;
+    text-align: left;
+    margin-left: -5rem;
+    width: 749px;
+    height: 72px;
+    margin-top: -1rem;
+    justify-content: center;
 }
 .orange-title{
     color : #FF8B00; 
@@ -38,7 +50,8 @@
     padding: 1rem 2rem; 
     color:white;
     text-decoration: none; 
-    margin-left: 8rem;
+    border-color: transparent;
+    margin-left: 4rem;
 }
 
 
@@ -54,6 +67,7 @@
     color: white; 
     text-decoration: none;
     margin-left: 3rem;
+    border-color: transparent;
 }
 
 
@@ -61,10 +75,12 @@
     height : 21rem;
     width: 17rem;
     margin-top:-2rem;
+    margin-left: -25rem;
 }
 .flex{
     display:flex;
-    justify-content:center;
+    justify-content:left;
+    margin-left: -9rem;
 }
 .callImg{
     height: 2rem;
