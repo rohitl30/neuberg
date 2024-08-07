@@ -29,7 +29,7 @@ const HealthPackage = () => {
               OFFER <br /> PRICE
             </div>
             <div className='price-text'>
-              &#8377; 1500
+              &#8377; 1599
             </div>
           </div>
         </div>
@@ -42,18 +42,26 @@ const HealthPackage = () => {
           <img className='shield-image' src={shield} alt="shield" />
           <div className='orange-block health-package-flex'>
             <div className='bullet-point'>
-              <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>CBC</p> </div>
-              <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Lipid Profile</p> </div>
-              <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Diabetes Profile (HbA1c, FBS)</p> </div>
-              <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>TSH Function (Free T3,T4 & TSH )</p> </div>
-              <div className='health-package-flex'><img className='tick-image' src={tick} /> <p className='button-text'>Kidney Function</p></div>
+              <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Complete Blood Court (CBC)</p> </div>
+              <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Glucose - Fasting</p> </div>
+              <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>HbA1C - HPLC</p> </div>
+              <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Liver Function Test</p> </div>
+              <div className='health-package-flex'><img className='tick-image' src={tick} /> <p className='button-text'>Free Thyroid Profile</p></div>
+              <div className='health-package-flex'><img className='tick-image' src={tick} /> <p className='button-text'>Lipid Profile</p></div>
+              <div className='health-package-flex'><img className='tick-image' src={tick} /> <p className='button-text'>Urea</p></div>
+
+
 
             </div>
             <div className='bullet-point right-bullets'>
-              <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Urine Function Test</p> </div>
-              <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Liver</p> </div>
-              <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Vitamin D</p> </div>
+              <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Creatine</p> </div>
+              <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Urine Acid</p> </div>
+              <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Urine Routine</p> </div>
               <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Calcium</p> </div>
+              <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Vitamin D Total</p> </div>
+              <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Vitamin B-12 Total</p> </div>
+
+
 
             </div>
 

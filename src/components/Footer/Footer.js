@@ -49,7 +49,7 @@ const Footer = () => {
                 <img src={Callfooter} className='footer-call-img' alt='call' />
                 <div className='footer-call-text'>
                   <p> Call us at: </p>
-                  <h1> 9700 36 9700 </h1>
+                  <h1> +91 6292306333 </h1>
                 </div>
               </div>
             </div>

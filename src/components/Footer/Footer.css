@@ -113,10 +113,11 @@
     background: #F7941D;
     color: white;
     height: 5rem;
-    width: 15rem;
+    width: 16rem;
     margin-top: 2rem;
     padding-right: 7rem;
     border-radius: 11px;
+    
 
 }
 
@@ -135,4 +136,5 @@
 .footer-call-text h1 {
     font-size: 26px;
     margin-top: -1rem;
+
 }

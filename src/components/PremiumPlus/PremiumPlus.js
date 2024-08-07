@@ -38,31 +38,39 @@ const PremiumPlus = () => {
         <img className='light-violet-plus' src={lightVioletPlus} alt="plus" />
         <div className='orange-curved-block health-package-flex' >
           <div className='bullet-point'>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>CBC</p> </div>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Lipid Profile</p> </div>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Urea</p> </div>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Creatinine</p> </div>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Uric Acid</p> </div>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Blood Urea Nitrogen (BUN)</p> </div>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Calcium</p> </div>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>25 OH Cholecalciferol (D2 + D3)</p> </div>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Vitamin B12 Level</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Complete Blood Count(CBC)</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Blood Group & RH Typing</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Anti HCV</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>c-Ractive Protien Quantitative</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>HbsAg (Hepatitis B Surface Antigen)</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Prostate specific Antigen / Pop smear  </p> </div>
           <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Iron Level</p> </div>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Prostate Specific Antigen Level</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Total Iron Binding Capacity (TIBC)</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Vitamin B12</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Vitamin D Total</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Glucose - Fasting</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>HbA1c - HPLC</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Lipid Profile</p> </div>
+
+
 
           </div>
           <div className='bullet-point right-bullets'>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Potassium</p> </div>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Blood Group & RH</p> </div>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>ECG</p> </div>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Body Mass Index</p> </div>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>C-Reactive Protein</p> </div>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>HCV Antibody Total</p> </div>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Magnessium Level</p> </div>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Phosphorous Inorganic</p> </div>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Sodium</p> </div>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>TMT or ECHO</p> </div>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Thyroid Function Test</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>ECG</p></div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Echocardiography/TMT</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Free Thyroid Profile</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Urea</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Creatine</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Uric Acid</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Calcium</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Electrolyte</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>PFT</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>X-Ray Chest PA View</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Urine routine</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>USG of Whole Abdomen</p> </div>
+
+          
+
 
           </div>
         </div>

@@ -39,23 +39,34 @@ const FullBodyPackage = () => {
           <img className='violet-plus-image' src={violetPlus} alt="doctor" />
       <div className='styled-block health-package-flex'>
         <div className='bullet-point'>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>CBC</p> </div>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Glucose(Fasting)</p> </div>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>glyco Hemoglobin (HbA1c)</p> </div>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Urea</p> </div>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /> <p className='button-text'>Uric Acid</p></div>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /> <p className='button-text'>Blood Urea Nitrogen(BUN)</p></div>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /> <p className='button-text'>Calcium</p></div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Complete Blood Court(CBC)</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Vitamin D Total</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Glucose Fasting</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>HbA1c - HPLC</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /> <p className='button-text'>Lipid Profile</p></div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /> <p className='button-text'>Liver Fucntion Test</p></div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /> <p className='button-text'>ECG(Electrocardiogram)</p></div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /> <p className='button-text'>ECG(Tyroid Profile)</p></div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /> <p className='button-text'>Urea</p></div>
+
+
 
 
         </div>
         <div className='bullet-point right-bullets'>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>25 OH Cholecalciferol (D2+D3)</p> </div>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Potassium</p> </div>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Chloride</p> </div>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Sodium</p> </div>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>TMT or ECHO</p> </div>
-          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Thyroid function Test</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Creatinine</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Uric Acid</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Urea Nitrogen(Bun)</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Calcium</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Electrolite</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Urine Routine</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>USG Whole Abdomen</p> </div>
+          <div className='health-package-flex'><img className='tick-image' src={tick} /><p className='button-text'>Calcium</p> </div>
+
+
+
+
+
 
 
         </div>

@@ -6,6 +6,7 @@
     justify-content: space-around ;
     width: 80rem;    
 }
+
 .heading{
     font-family: Maven Pro;
     font-size: 40px;
@@ -13,8 +14,7 @@
     line-height: 58.28px;
     margin-top: 3rem;
     margin-left:-13rem;
-    
-    
+
 }
 .text-1{
     font-family: Maven Pro;
